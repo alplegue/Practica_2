@@ -2,7 +2,9 @@
 """
 Álvaro Pleguezuelos Escobar
 
-En este código a diferencia del anterior vamos a establecer un orden de entrada al puente.
+A diferencia con el código anterior, este permite el paso de peatones en ambas direcciones en
+el puente con la restricción de que no pueden haber peatones y coches a la vez.
+Además vamos a establecer un orden de entrada al puente.
 """
 import time
 
