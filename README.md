@@ -1,6 +1,6 @@
 # Practica_2
 
-En esta tarea de programación concurrente se nos plantea un problema: en un puente compartido por peatones y vehículos, solo se puede permitir que los vehículos circulen en una dirección simultáneamente. Es decir, cuando un coche va hacia el norte, no se puede permitir que ningún peatón o coche vaya hacia el sur (y viceversa). Sin embargo, los peatones pueden cruzar en cualquier dirección. Para solucionar nos hemos ayuudado de el lenguaje de programación Python y la biblioteca multiprocessing.
+En esta tarea de programación concurrente se nos plantea un problema: en un puente compartido por peatones y vehículos, solo se puede permitir que los vehículos circulen en una dirección simultáneamente. Es decir, cuando un coche va hacia el norte, no se puede permitir que ningún peatón o coche vaya hacia el sur (y viceversa). Sin embargo, los peatones pueden cruzar en cualquier dirección. Para solucionar nos hemos ayudado de el lenguaje de programación Python y la biblioteca multiprocessing.
 
 En la práctica 2.1, solo se permiten coches y nos creamos dos variables compartidas: una para los coches que cruzan hacia el norte (cochesN) y otra para los que se dirigen hacia el sur (cochesS). También tenemos una variable condición (puenteVacio) para aquellos coches que no puedan cruzar en ese momento debido a la presencia de otros coches en dirección opuesta. En todo momento, aseguramos la exclusión mutua con mutex.
 
